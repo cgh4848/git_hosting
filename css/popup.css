@@ -1,0 +1,42 @@
+#popup {
+    width: 500px;
+    height: 500px;
+    background-color: antiquewhite;
+    position: fixed;
+    left: 750px;
+    top: 100px;
+    z-index: 9;
+    border: 1px solid #333;
+    font-size: 14px;
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 9999px;
+}
+
+
+#popup>div:first-child {
+    background-color: palegoldenrod;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#popup>div:nth-child(2) {
+    background-color: plum;
+    font-size: 16px;
+}
+
+#popup>div:nth-child(2)>p {
+    margin-bottom: 30px;
+}
+
+#popup>div:nth-child(3) {
+    background-color: peru;
+    position: relative;
+    top: 235px;
+}
+
+#popup>div:nth-child(3)>img {
+    position: relative;
+    left: 450px;
+} 

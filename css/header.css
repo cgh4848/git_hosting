@@ -10,13 +10,12 @@
     display: block;
     width: 100px;
     height: 40px;
-    background-color: indianred;
     text-align: center;
     padding-top: 10px;
     box-sizing: border-box;
     font-weight: bold;
 }
-
+ 
 #gnb li a:hover {
     background-color: #222328;
     color: #fff;
@@ -26,7 +25,7 @@
     display: block;
     width: 100px;
     height: 40px;
-    background-color: indigo;
+    background-color: #ffffff;
     text-align: center;
     padding-top: 10px;
     box-sizing: border-box;

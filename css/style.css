@@ -16,21 +16,23 @@ a {
 #wrap {
     width: 1200px;
     height: 700px;
-    background-color: aqua;
+    background-color: #ffffff;
     margin: 0 auto;
 }
 
 #header {
     width: 1200px;
     height: 100px;
-    background-color: aquamarine;
+    background-color: #ffffff;
+    z-index: 2;
+    position: relative;
 }
 
 #header>#logo {
     width: 200px;
     height: 100px;
     float: left;
-    background-color: blueviolet;
+    background-color: #ffffff;
     padding-top: 25px;
     box-sizing: border-box;
 }
@@ -39,7 +41,7 @@ a {
     width: 1000px;
     height: 100px;
     float: left;
-    background-color: cadetblue;
+    background-color: #ffffff;
     padding-top: 30px;
     padding-right: 30px;
     box-sizing: border-box;
@@ -48,47 +50,47 @@ a {
 #slide {
     width: 1200px;
     height: 300px;
-    background-color: antiquewhite;
+    background-color: #ffffff;
     overflow: hidden;
 }
 
 #contents {
     width: 1200px;
     height: 200px;
-    background-color: brown;
+    background-color: #ffffff;
 }
 
 #contents>#cont1 {
     width: 480px;
     height: 200px;
-    background-color: chartreuse;
+    background-color: #ffffff;
     float: left;
 }
 
 #contents>#cont2 {
     width: 360px;
     height: 200px;
-    background-color: chocolate;
+    background-color: #ffffff;
     float: left;
 }
 
 #contents>#cont3 {
     width: 360px;
     height: 200px;
-    background-color: cornflowerblue;
+    background-color: #ffffff;
     float: left;
 }
 
 #footer {
     width: 1200px;
     height: 100px;
-    background-color: burlywood;
+    background-color: #ffffff;
 }
 
 #footer>#logo {
     width: 200px;
     height: 100px;
-    background-color: cyan;
+    background-color: #ffffff;
     float: left;
     padding-top: 25px;
     box-sizing: border-box;
@@ -97,7 +99,7 @@ a {
 #footer>#copyright {
     width: 800px;
     height: 100px;
-    background-color: coral;
+    background-color: #ffffff;
     float: left;
     padding-left: 40px;
     padding-top: 30px;
@@ -107,6 +109,6 @@ a {
 #footer>#sns {
     width: 200px;
     height: 100px;
-    background-color: crimson;
+    background-color: #ffffff;
     float: left;
 }
